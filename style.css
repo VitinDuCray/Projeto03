@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d4ced6;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.post-image {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.post-title {
+    color: #6a21c9;
+    margin: 5px;
+}
+
+.post-content {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #333;
+}
+
+.etiquetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.botao {
+    background-color: #6a21c9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 11px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.tags {
+    display: flex;
+    gap: 7px;
+}
+
+.botao2 {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.preco {
+    background-color: #03ff25;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
